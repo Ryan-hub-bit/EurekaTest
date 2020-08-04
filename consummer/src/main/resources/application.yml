@@ -1,9 +1,8 @@
-
 server:
-  port: 8101 #运行端口号
+  port: 9000 #运行端口号
 spring:
   application:
-    name: HelloWorld #服务名称
+    name: ribbon-consumer #服务名称
 eureka:
   client:
     register-with-eureka: true #注册到Eureka的注册中心
